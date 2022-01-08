@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    background-color: #CC313D;
+    font-family: 'Poppins', sans-serif;
+}
+#nav {
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 2%;
+}
+#name {
+    font-size: 50px;
+    font-weight: bold;
+}
+#email {
+    padding-bottom: 8px;
+}
+#frame {
+    margin: 2%;
+    margin-top: 0;
+    height: 70vh;
+    width: 94%; /* decrease the width in another media query*/
+    position: absolute;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #CC313D;
+    width: 33px;
+    height: 26px;
+    border-radius: 100%;
+    padding: 13px 10px;
+    background: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.buttons {
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+    width: 78.5px;
+    text-align: center;
+    cursor: pointer;
+}
+#profile_button {
+    background: #FCF6F5FF;
+}
+#interests_button {
+    background-color: #F7C5CC;
+}
+#education_button {
+    background: #F7C5CC;
+}
+#skills_button {
+    background-color: #F7C5CC;
+}
+#projects_button {
+    background-color: #F7C5CC;
+}
+.buttons_group {
+    margin-left: 25px;
+}

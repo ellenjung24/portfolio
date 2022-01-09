@@ -13,8 +13,8 @@ function changeToPink() {
 }
 
 function showProf() {
-    document.getElementById("frame").src = "profile.html";
     changeToPink();
+    document.getElementById("frame").src = "profile.html";
     document.getElementById("profile_button").style.backgroundColor = "#FCF6F5FF";
 }
 

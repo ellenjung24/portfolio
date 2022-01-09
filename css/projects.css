@@ -1,5 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
 body {
     background-color: #FCF6F5FF;
+    font-family: 'Poppins', sans-serif;
+}
+#content {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: minmax(auto, auto);
+}
+.title {
+    font-size: 60px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+}
+.title a {
+    color: #656c74;
+    text-decoration: none;
+}
+.title a:hover {
+    text-decoration: underline #fcbbc2;
+}
+.title span {
+    color: #fdb4bd;
+}
+#proj1_div {
+    margin: 15% auto;
+    width: 90%;
+    height: 63.5%;
+    background-color: #fcc8cf;
+    padding-top: 0.7%;
+    display: inline-block;
+}
+#proj1 {
+    margin: 0.8% auto;
+    display: block;
+    width: 97%;
+}
+#proj2_div {
+    margin: 15% auto;
+    width: 90%;
+    height: 62%;
+    background-color: #fcc8cf;
+    padding-top: 0.7%;
+    display: inline-block;
+}
+#proj2 {
+    margin: 0.8% auto;
+    display: block;
+    width: 97%;
+}
+#developer, #user {
+    margin-bottom: 1px;
+}
+.icons {
+    font-size: 18px;
+    margin-left: 1%;
+    color: #656c74;
+    font-weight: 700;
+}
+.subcontent1 {
+    margin: 12% 6%;
+}
+.subcontent1 ul {
+    font-size: 18px;
+    color: #656c74;
+    font-weight: 700;
+}
+.highlight {
+    background-color: #fdd6db;
 }

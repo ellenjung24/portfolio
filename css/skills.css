@@ -1,5 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
 body {
     background-color: #FCF6F5FF;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 48% 52%;
+}
+#content {
+    margin: 50px 0 0 120px;
+}
+#title {
+    color: #656c74;
+    font-size: 60px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+}
+#title span {
+    color: #fdb4bd;
+}
+.subtitles {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+#content ul {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #656c74;
+}
+#content ul span {
+    background-color: #fdd6db;
 }

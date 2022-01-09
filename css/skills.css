@@ -5,7 +5,7 @@ body {
     background-color: #FCF6F5FF;
     font-family: 'Poppins', sans-serif;
     display: grid;
-    grid-template-columns: 48% 52%;
+    grid-template-columns: 50% 50%;
 }
 #content {
     margin: 50px 0 0 120px;
@@ -31,4 +31,25 @@ body {
 }
 #content ul span {
     background-color: #fdd6db;
+}
+#images {
+    height: 95vh;
+}
+#images img {
+    width: 400px;
+}
+#code1 {
+    position: relative;
+    top: 60px;
+    left: 20px;
+}
+#code2 {
+    position: relative;
+    top: -380px;
+    left: 320px;
+}
+#code3 {
+    position: relative;
+    top: -140px;
+    left: 160px;
 }

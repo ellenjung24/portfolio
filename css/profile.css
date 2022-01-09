@@ -1,16 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
 body {
     background-color: #FCF6F5FF;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 45% 55%;
 }
-/* .frame {
-    width: 300px;
-    border: 3px solid #ccc;
-    background: #eee;
-    margin: auto;
-    padding: 15px 10px;
-} */
-
 /* .frame {
     border-color: #F7C5CC;
     border-image: none;
@@ -24,7 +20,7 @@ body {
 } */
 
 .frame {
-    width: 200px;
+    width: 300px;
     border-color: #F7C5CC;
     border-image: none;
     border-radius: 50px 0 50px 0;
@@ -32,10 +28,33 @@ body {
     border-width: 10px;
     overflow: hidden;
     display: inline-block;
-    margin: 150px;
+    margin: 100px 180px;
 }
-
 #profile_img {
     width: 100%;
     height: 100%;
+}
+#content {
+    margin-right: 9%;
+    margin-left: 0;
+    color: #656c74;
+    font-size: 18px;
+}
+#name {
+    /* color: #44494e; */
+    color: #656c74;
+    font-size: 60px;
+    margin-top: 75px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+}
+#name span {
+    color: #fdb4bd;
+}
+#intro {
+    margin-top: 6%;
+    font-size: 25px;
+}
+#intro span {
+    background-color: #fdd6db;
 }

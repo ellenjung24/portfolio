@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
 body {
     background-color: #CC313D;
@@ -22,9 +22,9 @@ body {
     font-size: 60px;
     font-weight: bold;
     position: absolute;
-    margin: 1.5% 2% 2% 4%;
+    margin: 0.5% 2% 2% 4%;
     padding: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 #name a {
     color: white;

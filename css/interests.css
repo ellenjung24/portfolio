@@ -1,5 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
 body {
     background-color: #FCF6F5FF;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#content {
+    margin: 50px 0 0 120px;
+    grid-column: 1 / span 1;
+}
+#title {
+    color: #656c74;
+    font-size: 60px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+}
+#title span {
+    color: #fdb4bd;
+}
+.subtitles {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#images {
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+#frame1 {
+    width: 250px;
+    border-color: #F7C5CC;
+    border-image: none;
+    border-radius: 50px 0 50px 0;
+    border-style: solid;
+    border-width: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 70px 0 0 150px;
+    grid-row: 1 / span 2;
+    padding: 0;
+    height: min-content;
+}
+#baking {
+    width: 100%;
+}
+#frame2 {
+    grid-row: 2 / span 1;
+    width: 250px;
+    border-color: #F7C5CC;
+    border-image: none;
+    border-radius: 50px 0 50px 0;
+    border-style: solid;
+    border-width: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+#playlist {
+    width: 100%;
 }

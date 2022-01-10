@@ -32,24 +32,33 @@ body {
 #content ul span {
     background-color: #fdd6db;
 }
+.code {
+    width: 100%;
+}
 #images {
-    height: 95vh;
+    display: grid;
+    grid-template-rows: 51% 45%;
 }
-#images img {
-    width: 400px;
+#frame1 {
+    width: 350px;
+    border-color: #F7C5CC;
+    border-image: none;
+    border-radius: 50px 0 50px 0;
+    border-style: solid;
+    border-width: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 50px 0 0 50px;
+    padding: 0;
 }
-#code1 {
-    position: relative;
-    top: 60px;
-    left: 20px;
-}
-#code2 {
-    position: relative;
-    top: -380px;
-    left: 320px;
-}
-#code3 {
-    position: relative;
-    top: -140px;
-    left: 160px;
+#frame2 {
+    width: 350px;
+    border-color: #F7C5CC;
+    border-image: none;
+    border-radius: 50px 0 50px 0;
+    border-style: solid;
+    border-width: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 10px 0 0 300px;
 }

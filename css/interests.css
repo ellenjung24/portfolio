@@ -27,7 +27,7 @@ body {
 }
 #images {
     display: grid;
-    grid-template-rows: 40% 60%;
+    grid-template-rows: 35% 65%;
 }
 #frame1 {
     width: 250px;
@@ -38,7 +38,7 @@ body {
     border-width: 10px;
     overflow: hidden;
     display: inline-block;
-    margin: 70px 0 0 150px;
+    margin: 70px 0 0 120px;
     grid-row: 1 / span 2;
     padding: 0;
     height: min-content;
